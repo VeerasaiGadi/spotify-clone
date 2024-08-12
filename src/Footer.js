@@ -1,5 +1,6 @@
 import React from "react";
 import "./Footer.css";
+
 import {
   PlayCircleOutline,
   SkipPrevious,
@@ -8,8 +9,8 @@ import {
   Shuffle,
   Repeat,
   VolumeDown,
-} from "@material-ui/icons";
-import { Grid, Slider } from "@material-ui/core";
+} from "@mui/icons-material";
+import { Grid, Slider } from "@mui/material";
 
 function Footer() {
   return (

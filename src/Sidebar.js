@@ -1,9 +1,9 @@
 import React from "react";
 import "./Sidebar.css";
 import SidebarOption from "./SidebarOption";
-import HomeIcon from "@material-ui/icons/Home";
-import SearchIcon from "@material-ui/icons/Search";
-import { LibraryMusic } from "@material-ui/icons";
+import HomeIcon from "@mui/icons-material/Home";
+import SearchIcon from "@mui/icons-material/Search";
+import { LibraryMusic } from "@mui/icons-material";
 import { useDataLayerValue } from "./DataLayer";
 
 function Sidebar() {

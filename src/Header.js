@@ -1,7 +1,7 @@
 import React from "react";
-import { Search } from "@material-ui/icons";
+import { Search } from "@mui/icons-material";
 import "./Header.css";
-import { Avatar } from "@material-ui/core";
+import { Avatar } from "@mui/material";
 import { useDataLayerValue } from "./DataLayer";
 
 function Header() {
